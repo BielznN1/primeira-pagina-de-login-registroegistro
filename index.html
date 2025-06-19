@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Página de Registro</title>
+</head>
+<body>
+    
+    <main>
+        <div id="container">
+            <div id="welcome">
+                <h1>Seja Bem-Vindo</h1>
+                <p><strong>Se ja possui uma conta clique aqui!</strong></p>
+                <input type="button" id="button-entrar" value="Entrar" onclick="window.location.href='login.html '">
+            </div>
+
+            <div id="register">
+                <h1>Criar Conta</h1>
+                
+                <ul id="logos">
+                    <li><a href="#"><ion-icon name="logo-google"></ion-icon></a></li>
+                    <li><a href="#"><ion-icon name="logo-facebook"></ion-icon></a></li>
+                    <li><a href="#"><ion-icon name="logo-linkedin"></ion-icon></a></li>
+                </ul>
+
+                <p><strong>Ou use preencha esses dados para criar sua conta.</strong></p>
+
+                <form action="#" method="get">
+
+                    <input type="text" placeholder="Nome" id="name"required>
+                    <input type="email" placeholder="E-mail" id="email" required>
+                    <input type="password" placeholder="Senha" id="senha"  required>
+                    <input type="submit"  value="Registrar">
+
+
+                </form>
+
+            </div>
+
+
+        </div>
+
+    </main>
+
+</body>
+<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</html>
